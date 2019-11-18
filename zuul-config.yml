@@ -1,4 +1,6 @@
 zuul:
+  prefix: /api
+  strip-prefix: true
   routes:
     user-service:
       path: /user/**
