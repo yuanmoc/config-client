@@ -1,5 +1,5 @@
 zuul:
-  prefix: /api1
+  prefix: /api
   strip-prefix: true
   routes:
     user-service:
